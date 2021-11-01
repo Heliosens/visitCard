@@ -11,7 +11,6 @@ html {
 
 body {
     width: 100%;
-    font-size: 2.5rem;
 }
 
 main {
@@ -42,7 +41,7 @@ main {
     margin: auto;
 }
 
-#top div:nth-child(3), #bottom .round:last-child {
+#top div:nth-child(3), #bottom .round:nth-child(2) {
     top: 0;
     right: 0;
     padding-left: 1rem;
@@ -64,13 +63,34 @@ img, #black {
     background: black;
 }
 
-#text {
+#bigText {
     position: absolute;
     top: 10rem;
     left: 10rem;
     text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
-h1 {
-    margin-bottom: 1rem;
+#text {
+    padding-left: 25.5rem;
+}
+
+#text p {
+    display: inline-block;
+    margin: 1rem;
+}
+
+#text p:last-child {
+    display: block;
+    padding-left: 2rem;
+}
+
+#text div {
+    padding-left: 2rem;
+    font-size: 2rem;
+}
+
+#text div div div div {
+    padding-left: .5rem;
 }
