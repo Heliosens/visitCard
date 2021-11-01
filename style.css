@@ -6,10 +6,12 @@
 
 html {
     font-size: 62.5%;
+    font-family: sans-serif;
 }
 
 body {
     width: 100%;
+    font-size: 2.5rem;
 }
 
 main {
@@ -38,10 +40,9 @@ main {
     height: 200%;
     margin: auto;
     padding: 10rem;
-    z-index: 99;
 }
 
-#top .round:last-child, #bottom .round:last-child {
+#top div:nth-child(3), #bottom .round:last-child {
     top: 0;
     right: 0;
 }
@@ -52,5 +53,15 @@ main {
 
 #bottom .round:first-child {
     background: black;
+}
+
+#text {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
 }
 
